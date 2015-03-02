@@ -1,7 +1,7 @@
 ﻿Imports System.Data
 Imports System.Data.SqlClient
 Public Class Quản_lý_hóa_đơn
-    Dim ketnoidulieu As New SqlConnection("Data Source=VIRUS\SQLEXPRESS;Initial Catalog=quanlybanhang;Integrated Security=True")
+    Dim ketnoidulieu As New SqlConnection("workstation id=itofmeqlbanhang.mssql.somee.com;packet size=4096;user id=spiderman94_SQLLogin_1;pwd=rghlt5qn4v;data source=itofmeqlbanhang.mssql.somee.com;persist security info=False;initial catalog=itofmeqlbanhang")
     Private Sub Quản_lý_hóa_đơn_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Loaddulieu()
     End Sub

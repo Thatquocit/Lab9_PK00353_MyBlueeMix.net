@@ -1,7 +1,7 @@
 ﻿Imports System.Data
 Imports System.Data.SqlClient
 Public Class Khách_hàng
-    Dim ketnoidulieu As New SqlConnection("Data Source=VIRUS\SQLEXPRESS;Initial Catalog=quanlybanhang;Integrated Security=True")
+    Dim ketnoidulieu As New SqlConnection("workstation id=itofmeqlbanhang.mssql.somee.com;packet size=4096;user id=spiderman94_SQLLogin_1;pwd=rghlt5qn4v;data source=itofmeqlbanhang.mssql.somee.com;persist security info=False;initial catalog=itofmeqlbanhang")
     Private Sub Loaddulieu()
         ketnoidulieu.Open()
         Dim truyvan As New SqlCommand("select * from Khach_hang", ketnoidulieu)
